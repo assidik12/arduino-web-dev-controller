@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style/output.css" />
+  </head>
+  <body>
+    <header class="w-full bg-blue-600 flex justify-center items-center flex-col p-4">
+      <h1 class="font-bold text-lg">selamat datang di DIKZ IOT</h1>
+      <h4>silahkan pilih lampu yang ingin di control</h4>
+    </header>
+    <section class="w-full flex justify-center items-center flex-col py-6">
+      <div class="border p-4 my-5 border-gray-500 rounded-md">
+        <a id="ruang-tamu" class="flex justify-center flex-col items-center hover:cursor-pointer">
+          <img src="../../src/img/lampu-kunig.jpg" class="ruang-tamu-LED" width="200px" height="200px" alt="lampu" />
+          <h4 class="ruang-tamu bg-blue-500 font-bold w-full text-center p-2 my-2 rounded-md">Ruang tamu</h4>
+        </a>
+      </div>
+      <div class="border p-4 m-4 border-gray-500 rounded-md">
+        <a id="ruang-keluarga" class="flex justify-center flex-col items-center">
+          <img src="../../src/img/lampu-kunig.jpg " width="200px" class="ruang-keluarga-LED" height="200px" alt="" />
+          <h4 class="ruang-keluarga font-bold bg-blue-500 w-full text-center p-2 my-2 rounded-md">Ruang keluarga</h4>
+        </a>
+      </div>
+      <div class="border p-4 m-4 border-gray-500 rounded-md">
+        <a id="dapur" class="flex justify-center flex-col items-center">
+          <img src="../../src/img/lampu-kunig.jpg" width="200px" class="dapur-LED" height="200px" alt="" />
+          <h4 class="dapur font-bold bg-blue-500 w-full text-center p-2 my-2 rounded-md">Dapur</h4>
+        </a>
+      </div>
+    </section>
+    <footer class="w-full bg-blue-600 flex justify-center items-center flex-col p-4">
+      <p class="text-center">Copyright © 2024 - DIKZ IOT</p>
+    </footer>
+  </body>
+  <script src="../lampu/lampu.js"></script>
+</html>

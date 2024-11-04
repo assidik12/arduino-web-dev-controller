@@ -1,0 +1,25 @@
+{
+  "name": "golang-web-socket-for-iot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "golang-web-socket-for-iot": "file:",
+    "nodemon": "^3.1.7",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
