@@ -9,7 +9,7 @@ LiquidCrystal_I2C lcd(0x27, col, row);
 
 
 void setup() {
-  // put your setup code here, to run once:
+
   Serial.begin(9600);
   pinMode(led_yellow, OUTPUT);  //inisiasi setup led kuning
   pinMode(led_red, OUTPUT);  //inisiasi setup OUPUT led merah
@@ -50,8 +50,12 @@ void displayWeb(char data){
 }
 
 void displayLcd(int sensor){
+  // ubah angka 50 berdasarkan insenstas cahaya yang di inginkan
   if(sensor < 50) {
+
+    // ubah angka 500 berdasarkan waktu yang di inginkan
   siwtch_led(500);
+  
   lcd.setCursor(0, 0);
   lcd.print("waktu sudah malam");
   }else {

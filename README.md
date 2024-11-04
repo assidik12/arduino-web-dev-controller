@@ -26,7 +26,7 @@ npm install
 npm run dev
 ```
 
-3. Open `localhost:4000` in browser (cannot be used yet / still in development stage), but you can use `cd/javacript/view/features/lampu` and open `index.html` in browser
+3. Open `localhost:4000` in browser (cannot be used yet / still in development stage), but you can use `cd/javacript/view/features/lampu` and open `lampu.html` in browser
 
 4. You can control your IoT device via your browser
 
